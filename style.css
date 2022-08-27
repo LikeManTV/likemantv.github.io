@@ -44,6 +44,7 @@ body {
 
 footer {
     width: 100%;
+    height: fit-content;
     background-color: black;
     text-align: center;
 }
