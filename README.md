@@ -1,3 +1,3 @@
-# likemantv.github.io
+# SLOVNÍ HODINY
 
 Můj první javacript projekt.
