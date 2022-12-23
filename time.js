@@ -37,7 +37,7 @@ if (hours == 1 && minutes == 0) {                               // 1:00
 } else if (hours == 1 && minutes > 45 && minutes < 51) {        // 1:46-1:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA DVĚ RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 1 && minutes > 50 && minutes < 59) {        // 1:51-1:59
+} else if (hours == 1 && minutes > 50 && minutes <= 59) {        // 1:51-1:59
     time.innerHTML = "JSOU TÉMĚŘ DVĚ HODINY RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -76,7 +76,7 @@ if (hours == 2 && minutes == 0) {                               // 2:00
 } else if (hours == 2 && minutes > 45 && minutes < 51) {        // 2:46-2:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA TŘI RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 2 && minutes > 50 && minutes < 59) {        // 2:51-2:59
+} else if (hours == 2 && minutes > 50 && minutes <= 59) {        // 2:51-2:59
     time.innerHTML = "JSOU TÉMĚŘ TŘI HODINY RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -115,7 +115,7 @@ if (hours == 3 && minutes == 0) {                               // 3:00
 } else if (hours == 3 && minutes > 45 && minutes < 51) {        // 3:46-3:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA ČTYŘI RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 3 && minutes > 50 && minutes < 59) {        // 3:51-3:59
+} else if (hours == 3 && minutes > 50 && minutes <= 59) {        // 3:51-3:59
     time.innerHTML = "JSOU TÉMĚŘ ČTYŘI HODINY RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -154,7 +154,7 @@ if (hours == 4 && minutes == 0) {                               // 4:00
 } else if (hours == 4 && minutes > 45 && minutes < 51) {        // 4:46-4:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA PĚT RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 4 && minutes > 45 && minutes < 51) {        // 4:51-4:59
+} else if (hours == 4 && minutes > 45 && minutes <= 51) {        // 4:51-4:59
     time.innerHTML = "JE TÉMĚŘ PĚT HODIN RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -193,7 +193,7 @@ if (hours == 5 && minutes == 0) {                               // 5:00
 } else if (hours == 5 && minutes > 45 && minutes < 51) {        // 5:46-5:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA ŠEST RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 5 && minutes > 45 && minutes < 51) {        // 5:51-5:59
+} else if (hours == 5 && minutes > 45 && minutes <= 51) {        // 5:51-5:59
     time.innerHTML = "JE TÉMĚŘ ŠEST HODIN RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -232,7 +232,7 @@ if (hours == 6 && minutes == 0) {                               // 6:00
 } else if (hours == 6 && minutes > 45 && minutes < 51) {        // 6:46-6:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA SEDM RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 6 && minutes > 50 && minutes < 59) {        // 6:51-6:59
+} else if (hours == 6 && minutes > 50 && minutes <= 59) {        // 6:51-6:59
     time.innerHTML = "JE TÉMĚŘ SEDM HODIN RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -271,7 +271,7 @@ if (hours == 7 && minutes == 0) {                               // 7:00
 } else if (hours == 7 && minutes > 45 && minutes < 51) {        // 7:46-7:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA OSM RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 7 && minutes > 50 && minutes < 59) {        // 7:51-7:59
+} else if (hours == 7 && minutes > 50 && minutes <= 59) {        // 7:51-7:59
     time.innerHTML = "JE TÉMĚŘ OSM HODIN RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -310,7 +310,7 @@ if (hours == 8 && minutes == 0) {                               // 8:00
 } else if (hours == 8 && minutes > 45 && minutes < 51) {        // 8:46-8:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA DEVĚT RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 8 && minutes > 40 && minutes < 59) {        // 8:51-8:59
+} else if (hours == 8 && minutes > 40 && minutes <= 59) {        // 8:51-8:59
     time.innerHTML = "JE TÉMĚŘ DEVĚT HODIN RÁNO.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -583,7 +583,7 @@ if (hours == 15 && minutes == 0) {                               // 15:00
 } else if (hours == 15 && minutes > 45 && minutes < 51) {        // 15:46-15:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA ČTYŘI ODPOLEDNE.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 15 && minutes > 50 && minutes < 59) {        // 15:51-15:59
+} else if (hours == 15 && minutes > 50 && minutes <= 59) {        // 15:51-15:59
     time.innerHTML = "JSOU TÉMĚŘ ČTYŘI HODINY ODPOLEDNE.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -622,7 +622,7 @@ if (hours == 16 && minutes == 0) {                               // 16:00
 } else if (hours == 16 && minutes > 45 && minutes < 51) {        // 16:46-16:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA PĚT ODPOLEDNE.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 16 && minutes > 45 && minutes < 51) {        // 16:51-16:59
+} else if (hours == 16 && minutes > 45 && minutes <= 59) {        // 16:51-16:59
     time.innerHTML = "JE TÉMĚŘ PĚT HODIN ODPOLEDNE.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -661,7 +661,7 @@ if (hours == 17 && minutes == 0) {                               // 17:00
 } else if (hours == 17 && minutes > 45 && minutes < 51) {        // 17:46-17:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA ŠEST VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 17 && minutes > 45 && minutes < 51) {        // 17:51-17:59
+} else if (hours == 17 && minutes > 45 && minutes <= 59) {        // 17:51-17:59
     time.innerHTML = "JE TÉMĚŘ ŠEST HODIN VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -700,7 +700,7 @@ if (hours == 18 && minutes == 0) {                               // 18:00
 } else if (hours == 18 && minutes > 45 && minutes < 51) {        // 18:46-18:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA SEDM VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 18 && minutes > 50 && minutes < 59) {        // 18:51-18:59
+} else if (hours == 18 && minutes > 50 && minutes <= 59) {        // 18:51-18:59
     time.innerHTML = "JE TÉMĚŘ SEDM HODIN VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -739,7 +739,7 @@ if (hours == 19 && minutes == 0) {                               // 19:00
 } else if (hours == 19 && minutes > 45 && minutes < 51) {        // 19:46-19:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA OSM VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 19 && minutes > 50 && minutes < 59) {        // 19:51-19:59
+} else if (hours == 19 && minutes > 50 && minutes <= 59) {        // 19:51-19:59
     time.innerHTML = "JE TÉMĚŘ OSM HODIN VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
@@ -778,7 +778,7 @@ if (hours == 20 && minutes == 0) {                               // 20:00
 } else if (hours == 20 && minutes > 45 && minutes < 51) {        // 20:46-20:50
     time.innerHTML = "JE KOUSEK PO TŘIČTVRTĚ NA DEVĚT VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 20 && minutes > 40 && minutes < 59) {        // 20:51-20:59
+} else if (hours == 20 && minutes > 40 && minutes <= 59) {        // 20:51-20:59
     time.innerHTML = "JE TÉMĚŘ DEVĚT HODIN VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 }
