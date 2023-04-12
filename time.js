@@ -691,7 +691,7 @@ if (hours == 18 && minutes == 0) {                               // 18:00
 } else if (hours == 18 && minutes > 30 && minutes < 41) {        // 18:31-18:40
     time.innerHTML = "JE KOUSEK PO PŮL SEDMÉ VEČER.";
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
-} else if (hours == 18 && minutes == 41 && minutes < 45) {       // 18:41-18:44
+} else if (hours == 18 && minutes >= 41 && minutes < 45) {       // 18:41-18:44
     time.innerHTML = "JE TÉMĚŘ TŘIČTVRTĚ NA SEDM VEČER."
     document.title = "SLOVNÍ HODINY | "+hours+":"+minutes;
 } else if (hours == 18 && minutes == 45) {                       // 18:45
