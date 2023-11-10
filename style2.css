@@ -48,15 +48,9 @@ body {
     height: 150px;
 }
 
-@media only screen and (min-width: 1200px) {
-    .nevimuz {
-        gap: 200px !important;
-    }
-}
-
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 2000px) {
         .nevimuz {
-        gap: 200px !important;
+        gap: 100px !important;
     }
 }
 @media only screen and (min-width: 768px) {
