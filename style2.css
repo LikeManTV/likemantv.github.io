@@ -52,7 +52,13 @@ h1 {
     padding-top: 10px;
 }
 
-@media (min-width: 2561px) {
+@media (min-width: 2560px) {
+    .num {
+        font-size: 120px;
+    }
+    .text {
+        font-size: 50px;
+    }
     .nevimuz {
         gap: 70px;
     }
