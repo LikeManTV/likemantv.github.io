@@ -50,11 +50,14 @@ body {
 
 @media only screen and (min-width: 1200px) {
     .nevimuz {
-        gap: 100px;
+        gap: 200px !important;
     }
 }
 
 @media only screen and (min-width: 992px) {
+        .nevimuz {
+        gap: 200px !important;
+    }
 }
 @media only screen and (min-width: 768px) {
 }
